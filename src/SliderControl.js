@@ -13,7 +13,7 @@ export default class SliderControl extends React.Component {
                 max: 9,
             },
 
-            //  The displayed range filtered by the slider
+            //  Displayed range filtered by the slider
             valueRangeUpdated: {
                 min: 2,
                 max: 9,

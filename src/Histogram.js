@@ -108,7 +108,7 @@ export default class Histogram extends React.Component {
             .attr("y", (d) => y(d.length))
             .attr("height", (d) => y(0) - y(d.length))
             .style("fill", "steelblue")
-            .style("opacity", 0.6);
+            .style("opacity", 0.4);
 
         this.svg
             .append("g")
@@ -120,7 +120,7 @@ export default class Histogram extends React.Component {
             .attr("y", (d) => y(d.length))
             .attr("height", (d) => y(0) - y(d.length))
             .style("fill", "green")
-            .style("opacity", 0.6);
+            .style("opacity", 0.4);
 
         this.svg.append("g").call(xAxis);
 
@@ -237,7 +237,7 @@ export default class Histogram extends React.Component {
             .attr("y", (d) => y(d.length))
             .attr("height", (d) => y(0) - y(d.length))
             .style("fill", "steelblue")
-            .style("opacity", 0.6);
+            .style("opacity", 0.4);
 
         this.svg
             .append("g")
@@ -249,7 +249,7 @@ export default class Histogram extends React.Component {
             .attr("y", (d) => y(d.length))
             .attr("height", (d) => y(0) - y(d.length))
             .style("fill", "green")
-            .style("opacity", 0.6);
+            .style("opacity", 0.4);
 
         this.svg.append("g").call(xAxis);
 
